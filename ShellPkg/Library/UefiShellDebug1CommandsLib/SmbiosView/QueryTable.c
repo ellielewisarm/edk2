@@ -5,6 +5,7 @@
   Copyright (c) 2005 - 2024, Intel Corporation. All rights reserved.<BR>
   (C) Copyright 2016-2019 Hewlett Packard Enterprise Development LP<BR>
   Copyright (c) 2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+  Copyright (c) 2024, Arm Limited. All rights reserved.<BR>
   SPDX-License-Identifier: BSD-2-Clause-Patent
 
 **/
@@ -3917,6 +3918,10 @@ TABLE_ITEM  StructureTypeInfoTable[] = {
   {
     44,
     L" Processor Additional Information"
+  },
+  {
+    45,
+    L" Firmware Inventory Information"
   },
   {
     0x7E,
